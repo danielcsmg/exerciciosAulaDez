@@ -23,6 +23,7 @@ public class App {
 
     public static void nomeSobrenome(String nome, String sobrenome){
         System.out.println("Olá, " + nome + " " + sobrenome);
+        return;
     }
 
     public static void testeUm(String nome){
