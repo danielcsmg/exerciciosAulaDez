@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
 
     public static String[] vetor(){
@@ -29,11 +31,20 @@ public class App {
         System.out.println(texto);
     }
     public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+
         testeUm("Daniel");
         String[] teste = vetor();
         for(int i = 0; i < 3; i++){
             System.out.println(teste[i]);
         }
-        nomeSobrenome("Daniel", "Souza");
+
+        System.out.println("Digite seu nome:");
+        String nome = leitor.nextLine();
+
+        System.out.println("Digite seu sobrenome:");
+        String sobrenome = leitor.nextLine();
+
+        nomeSobrenome(nome, sobrenome);
     }
 }
