@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch exercicioDoisMetodo",
+            "request": "launch",
+            "mainClass": "exercicioDoisMetodo",
+            "projectName": "aulaDeMetodos_90268e8b"
+        },
+        {
+            "type": "java",
             "name": "Launch exercicioUmMetodo",
             "request": "launch",
             "mainClass": "exercicioUmMetodo",
